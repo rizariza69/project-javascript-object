@@ -35,7 +35,8 @@ let student = {
 
 for (var i = 0; i <= student; i++) {}
 console.log(student.name[0] + " " + student.age[0] + ' ' + student.score[0]);
-console.log(student.name[1] + " " + student.age[1] + ' ' + student.score[1]);
+console.log(`${student.name[1]} ${student.age[1]} ${student.score[1]}`);
+
 
 console.log(student);
 console.log(student['name']);
