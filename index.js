@@ -22,16 +22,20 @@ console.log(hero['name'])
 console.log(hero.age)
 console.log(hero.superPower)
 
-alert(hero)
-alert(hero['name'])
-alert(hero.age)
-alert(hero.superPower)
+// alert(hero)
+// alert(hero['name'])
+// alert(hero.age)
+// alert(hero.superPower)
 
-const student = {
-  name: 'dudu',
-  age: 15,
-  score: 70
+let student = {
+  name: ['dudu', 'cip'],
+  age: [15, 17],
+  score: [70, 50]
 }
+
+for (var i = 0; i <= student; i++) {}
+console.log(student.name[0] + " " + student.age[0] + ' ' + student.score[0]);
+console.log(student.name[1] + " " + student.age[1] + ' ' + student.score[1]);
 
 console.log(student);
 console.log(student['name']);
